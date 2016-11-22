@@ -1,6 +1,6 @@
 .canvas-container {
     border: solid 1px #ccc;
-    margin: 10% auto;
+    margin: 7% auto;
     position: relative;
     width: 500px;
 }
@@ -15,18 +15,21 @@
     width: 498px;
 }
 
-.export {
+.button {
     background-color: #ccc;
     border: none;
     color: #555;
     cursor: pointer;
     display: inline-block;
+    float: right;
     font-size: 14px;
     height: 17px;
     line-height: 17px;
     outline: none;
     padding: 0 10px;
-    position: absolute;
     text-decoration: none;
-    right: 0;
 }
+
+.canvas { margin-top: 10px; }
+
+.hiddenLink { display: none; }
